@@ -1,7 +1,12 @@
 .landing img{
-    filter: grayscale(0.8);
+    filter: grayscale(0.9);
 }
 
 .list{
     margin-left: 4em;
+}
+
+.nav-link {
+    color: gold !important;
+    font-weight: bold;
 }

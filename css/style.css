@@ -8,6 +8,14 @@
     src:    
        url('fonts/Titillium/TitilliumWeb-Regular.ttf') format('TrueType');
 }
+
+@media(max-width: 500px){
+    .landing img{
+        width: 500px !important;
+    }
+}
+
+
 #myNavbar{
     position: fixed;
     background-color: transparent;
@@ -49,7 +57,7 @@
     border-radius: 50px;
 }
 .landing p{
-    color: #000;
+    color: #fff;
 }
 .landing span{
     color: #0039f3;
@@ -258,6 +266,7 @@
     .nav-links a{
         display: block !important;
         margin: 5px 0 !important;
+        
     }
 }
 .swiper-container {
@@ -378,3 +387,4 @@ footer hr{
 .secondary{
     font-size: .8em !important;
 }
+
