@@ -1,0 +1,179 @@
+@media (min-width: 900px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 75em;
+        gap: 5px;
+        padding-top: 7%;
+    
+    }
+    
+    section{
+        background-color: burlywood;
+    }
+    section:first-child{
+        grid-column: 1;
+    }
+    section:last-child{
+        grid-column: 2/4;
+    }
+    
+    section h2{
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0.4em ;
+    }
+    section h2:first-child{
+        background-color: black;
+        padding: 0.5em;
+        margin: 0;
+        color: blanchedalmond;
+    }
+    
+    section a{
+        text-decoration: none;
+    }
+     section a:hover{
+         text-decoration: overline dashed gold;
+     }
+    
+     .myclass{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 15em;
+        gap: 5px;
+    
+    }
+    
+    .tutor p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        text-align: justify;
+        line-height: 30px;
+        padding-left: 0.2rem;
+    }
+    
+    .tutor p::first-letter{
+        color: honeydew;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+    
+    .tutor h2{
+    font-size: 1em;
+    }
+    
+    .classroom1{
+    background-image: url(../img/table.jpg);
+    }
+    
+    .classroom2{
+        background-image: url(../img/blog/excel.jpg);
+        }
+       
+     .classroom3{
+        background-image: url(../img/flex.jpg);
+            }   
+            
+    .classroom4{
+        background-image: url(../img/illustration.jpg);
+            }
+      .classroom5{    
+          background-image: url(../img/flex.jpg);
+               }
+    .emb{
+    border: 3px dashed gold;
+    }
+    
+    
+}
+
+@media (max-width: 800px){
+    main{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows:50em;
+        gap: 5px;
+    }
+    
+    section{
+        background-color: burlywood;
+    }
+    section:first-child{
+        grid-column: 1;
+    }
+    section:last-child{
+        grid-column: 1;
+    }
+    
+    section h2{
+        text-transform: uppercase;
+        font-size: larger;
+        padding: 0.4em ;
+    }
+    section h2:first-child{
+        background-color: black;
+        padding: 0.5em;
+        margin: 0;
+        color: blanchedalmond;
+    }
+    
+    section a{
+        text-decoration: none;
+    }
+     section a:hover{
+         text-decoration: overline dashed gold;
+     }
+    
+     .myclass{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 15em;
+        gap: 5px;
+    
+    }
+    
+    .tutor p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 1.2em;
+        text-align: justify;
+        line-height: 30px;
+        padding: 0.4rem;
+    }
+    
+    .tutor p::first-letter{
+        color: honeydew;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: larger;
+    }
+    
+    .tutor h2{
+    font-size: 1em;
+    }
+    
+    .classroom1{
+    background-image: url(../img/table.jpg);
+    }
+    
+    .classroom2{
+        background-image: url(../img/blog/excel.jpg);
+        }
+       
+     .classroom3{
+        background-image: url(../img/flex.jpg);
+            }   
+            
+    .classroom4{
+        background-image: url(../img/illustration.jpg);
+            }
+      .classroom5{    
+          background-image: url(../img/flex.jpg);
+               }
+    .emb{
+    visibility: visible;
+    }
+    
+    
+}

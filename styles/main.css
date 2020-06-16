@@ -1,0 +1,64 @@
+
+@media print {
+    h1::after{
+       content: " welcome to our home "; 
+    }
+    h1 {
+        text-transform: uppercase;
+    }
+}
+
+@media (min-width: 400px){
+    section
+    {
+        background-color: green;
+        margin: 5px;
+        width: 100%;        
+        height: 39vh;
+    }
+
+    ::selection
+    {
+        color: yellow;
+        background-color: aquamarine;
+        content: " franc ";
+    }
+}
+
+@media (min-width: 768px){
+    section
+    {
+        background-color: blue;
+        margin: 5px;
+        width: 90%;
+        height: 39vh;
+    }
+}
+
+@media (min-width: 992px){
+    section
+    {
+        background-color: yellow;
+        margin: 5px;
+        width: 45%;
+        height: 39vh;
+        display: inline-block;
+    }
+}
+
+
+@media (min-width: 1200px){
+    section
+    {
+        background-color: red;
+        margin: 5px;
+        width: 22%;
+        height: 34vh;
+        display: inline-block;
+    }
+    body{
+        background: aqua;
+    }
+}
+
+
